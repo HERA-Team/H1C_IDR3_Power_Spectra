@@ -3,3 +3,4 @@
 noise_integ_3070ns_data_dict.npy
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+*.feather
