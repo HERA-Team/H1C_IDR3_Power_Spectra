@@ -164,10 +164,10 @@ class PlotSummary(object):
                     T = self.get_adiabatic_limit(z)
                     if orientation == 'vertical':
                         axes_by_z[j].fill_betweenx([-10, 10], 0, T, ls='-',
-                            color='gray', facecolors='none', hatch='x')
+                            color='gray', facecolors='none', hatch='xx')
                     else:
                         axes_by_z[j].fill_between([-10, 10], 0, T, ls='-',
-                            color='gray', facecolors='none', hatch='x')
+                            color='gray', facecolors='none', hatch='xx')
 
                 # Add twin axis
                 ax_r = axes_by_z[j].twinx() if orientation == 'horizontal' \
