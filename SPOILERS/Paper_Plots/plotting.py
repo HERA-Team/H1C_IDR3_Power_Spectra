@@ -185,7 +185,7 @@ class PlotSummary(object):
         orientation='vertical', show_priors=True, panel_width_long_dim=2,
         panel_width_short_dim=4, show_adiabatic_limit=True, two_tailed=True,
         conf_level='both', arrow_len=3, lw=1, capsize=1, twinax='top', annotate_kw={},
-        plim=None, pticks=10, temp_ax='top', hspace=None):
+        plim=None, pticks=10, temp_ax='top', hspace=None, bbox=bbox):
         """
 
 
